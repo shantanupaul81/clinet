@@ -2,7 +2,7 @@ import * as actionTypes from '../constants/productConstant.js'
 import axios from 'axios'
 
 
-const URL = 'http://localhost:8000'
+const URL = 'https://flipkartserver-k5mi.onrender.com'
 
 export const getProducts =() => async (dispatch)=>{
     try {
