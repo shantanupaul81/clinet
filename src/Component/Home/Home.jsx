@@ -44,11 +44,6 @@ const Home = () => {
         <MidSection/>
         <Slide products={products} title="Discount For You" timer={false}/>
         <Slide products={products} title="Suggested Items" timer={false}/>
-        <Slide products={products} title="Top Selection" timer={false}/>
-        <Slide products={products} title="Recommended Items" timer={false}/>
-        <Slide products={products} title="Trending Offers" timer={false}/>
-        <Slide products={products} title="Season's Top Picks" timer={false}/>
-        <Slide products={products} title="Top deals on Accessories" timer={false}/>
       </Container>
     </Fragment>
   );
